@@ -1,0 +1,27 @@
+.custom-hover .card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background: #dae6ff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .custom-hover .card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff00e6, 20%,#37bcff, 40%,  #ff00e6, 60%, #37bcff, 80%, #ff00e6);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    font-weight: bold;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+    margin: 0;
+  }
+  
+  .custom-hover:hover h4 {
+    color: #fff;
+  }
+  
